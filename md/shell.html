@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>基本 shell 命令使用</h3>
+
+    <p>
+      敲完命令直接回车就是执行命令，命令的关键字前后需要隔开 - ls 命令 <br />
+      查看当前目录下的所有内容 参数 -a 查看隐藏文件
+    </p>
+
+    <ul>
+      <li><p>pwd 命令 查看当前所在位置并打印</p></li>
+      <li>
+        <p>
+          cd 命令 后面跟着地址(相对路径) <br />跳转目录 ./当前 <br />../上一级
+        </p>
+      </li>
+      <li><p>touch 命令 一定要加后缀名 新建文件</p></li>
+      <li><p>mkdir 命令 新建文件夹</p></li>
+      <li>
+        <p>
+          rm 命令 删除文件 参数 -r 删除文件夹 参数 -f 强制删除
+          多个参数可以连起来写 例如 -rf
+        </p>
+        <p><code>shell rm -rf ./* 强制删除当前文件下的所有内容 </code></p>
+      </li>
+      <li>
+        <p>
+          mv 命令 <br />剪切文件或文件夹还有重命名
+          <code>shell mv 测试.txt ../aaa/test.txt 重命名 </code>
+        </p>
+      </li>
+      <li><p>cp 命令 复制文件或文件夹还有重命名</p></li>
+      <li><p>clear 清屏</p></li>
+    </ul>
+
+    <h5>命令行中的快捷键</h5>
+
+    <ul>
+      <li>ctrl + c 结束当前命令</li>
+      <li>tab 自动补齐文件以及文件夹或者命令的名称</li>
+      <li>上下箭头 返回输入历史记录</li>
+    </ul>
+  </body>
+</html>
